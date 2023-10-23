@@ -1,17 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito&family=Oswald&display=swap');
 
 html{
-    font-family: 'Nunito', sans-serif;
     font-family: 'Oswald', sans-serif;
 }
 
 body{
     background-color: #fff;
+    display: flex;
+    background-color: #333;
 }
 
 table{
     border: .2rem solid #000;
     width: 30rem;
+    background-color: #999;
 }
 
 table tr{
@@ -27,3 +29,17 @@ td input{
     width: 1rem;
 }
 
+p{
+    font-size: 1.2rem;
+    color: #fff;
+    margin-left: 2rem;
+}
+
+#notes{
+    margin-left: 2rem;
+    height: 15rem;
+}
+
+#reset-textarea{
+    margin-left: 2rem;
+}
