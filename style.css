@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Oswald&display=swap');
+
+html{
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Oswald', sans-serif;
+}
+
+body{
+    background-color: #fff;
+}
+
+table{
+    border: .2rem solid #000;
+    width: 30rem;
+}
+
+table tr{
+    background-color: aquamarine;
+}
+
+table td{
+    background-color: aquamarine;
+}
+
+td input{
+    height: 1rem;
+    width: 1rem;
+}
+
